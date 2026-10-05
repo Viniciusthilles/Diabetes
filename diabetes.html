@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Diabetes Tipo 2: Conheça e Cuide-se</title>
+<style>
+:root{--bg:#f4f9f8;--card:#fff;--tx:#1d2b2a;--mu:#5a6b69;--ac:#0f8b7d;--ac2:#e0f3f0;--bd:#d5e4e1;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#101a19;--card:#18262a;--tx:#e8f2f0;--mu:#9fb3b0;--ac:#3cc4b3;--ac2:#1d3a38;--bd:#2a3f3d}}
+:root[data-theme="dark"]{--bg:#101a19;--card:#18262a;--tx:#e8f2f0;--mu:#9fb3b0;--ac:#3cc4b3;--ac2:#1d3a38;--bd:#2a3f3d}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:680px;margin:0 auto;padding:20px 16px 40px}
+header{text-align:center;padding:24px 0 8px}h1{font-size:1.8rem;line-height:1.2;margin:0 0 8px}h2{font-size:1.3rem;margin:0 0 8px}
+.sub{color:var(--mu);margin:0}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:16px;padding:20px;margin:16px 0}
+.card p{margin:0 0 10px}.card p:last-child{margin:0}
+.fact{background:var(--ac2);border-radius:12px;padding:12px 14px;margin:10px 0}
+button{font:inherit;cursor:pointer}
+.opt{display:block;width:100%;text-align:left;background:var(--card);color:var(--tx);border:2px solid var(--bd);border-radius:12px;padding:14px;margin:10px 0}
+.opt:hover,.opt:focus-visible{border-color:var(--ac)}
+.btn{background:var(--ac);color:#fff;border:0;border-radius:12px;padding:14px 22px;font-weight:600;width:100%}
+.ghost{background:none;border:0;color:var(--mu);padding:8px 0;text-decoration:underline}
+.bar{height:8px;background:var(--ac2);border-radius:8px;overflow:hidden;margin-bottom:6px}.bar i{display:block;height:100%;background:var(--ac);transition:width .3s}
+.res p{margin:0 0 14px}.aviso{border-left:4px solid #d98a00;background:var(--ac2);padding:12px 14px;border-radius:8px;font-size:.9rem;margin-top:20px}
+ul{padding-left:20px;margin:6px 0}small,.refs{color:var(--mu);font-size:.85rem}.refs a{color:var(--ac);word-break:break-all}.hide{display:none}
+</style></head><body><main>
+<header><h1>Diabetes Tipo 2</h1><p class="sub">Entenda, previna e cuide-se com leveza</p></header>
+
+<section id="info">
+<div class="card"><h2>O que é?</h2>
+<p>O diabetes tipo 2 é uma condição crônica em que o corpo não produz insulina suficiente ou não consegue usá-la bem. A insulina é a "chave" que deixa o açúcar entrar nas células para virar energia. Sem ela funcionando direito, o açúcar se acumula no sangue.</p>
+<div class="fact"><b>8,6%</b> dos adultos brasileiros convivem com o diabetes tipo 2, chegando a cerca de <b>20%</b> entre os idosos. Quase metade demora a descobrir, pois no início pode não haver sintomas.</div></div>
+
+<div class="card"><h2>Fatores de risco</h2>
+<ul><li><b>Idade:</b> o risco cresce com os anos, principalmente após os 40.</li><li><b>Excesso de peso:</b> sobretudo a gordura na barriga, que gera resistência à insulina.</li><li><b>Sedentarismo:</b> músculos parados usam menos açúcar do sangue.</li><li><b>Alimentação:</b> excesso de ultraprocessados, gorduras saturadas e açúcar.</li><li><b>Genética:</b> histórico de diabetes na família.</li></ul></div>
+
+<div class="card"><h2>Estilo de vida é o melhor remédio</h2>
+<p>Estudos de grande porte mostram que mudar hábitos reduz de <b>50% a 60%</b> o risco de desenvolver diabetes tipo 2 ou retarda sua evolução, resultado superior ao de alguns medicamentos preventivos.</p>
+<p>Alimentação equilibrada, movimento regular e controle do peso (pequenas perdas já ajudam muito) são os pilares.</p></div>
+
+<div class="card"><h2>O maior desafio: a dieta</h2>
+<p>Muitas pessoas conseguem tomar os remédios e se exercitar, mas encontram uma barreira enorme para seguir a dieta. Mudar hábitos de uma vida inteira mexe com a rotina social e até com memórias afetivas. O apoio da família faz toda a diferença.</p></div>
+
+<div class="card"><h2>Medicamentos e SUS</h2>
+<p>A <b>metformina</b> é o tratamento de primeira escolha: ajuda o corpo a aproveitar melhor a insulina e reduz a produção de açúcar pelo fígado. A maioria das pessoas obtém os medicamentos gratuitamente nas farmácias do SUS e na Atenção Básica. Em idosos, o médico precisa avaliar com cuidado para evitar interações e quedas perigosas de açúcar (hipoglicemia).</p></div>
+
+<div class="card"><h2>Autocuidado acolhedor</h2>
+<ul><li>O diagnóstico não é um fim, e sim um recomeço para proteger coração, rins e visão.</li><li>Faça pequenas trocas: água no lugar do refrigerante e uma caminhada leve de 20 minutos por dia.</li><li>Faça exames de rotina, como a hemoglobina glicada: eles são o mapa do seu caminho.</li></ul></div>
+
+<button class="btn" id="start">Responder ao quiz e receber minha orientação</button>
+</section>
+
+<section id="quiz" class="hide"><div class="card">
+<div class="bar"><i id="pb"></i></div><small id="pn"></small>
+<h2 id="qt" style="margin-top:14px"></h2><div id="qo"></div>
+<button class="ghost" id="back">← Voltar</button></div></section>
+
+<section id="out" class="hide"><div class="card res"><h2>Seu panorama de saúde</h2><div id="rt"></div>
+<div class="aviso"><b>Aviso importante:</b> as orientações acima são geradas automaticamente com base em diretrizes científicas para auxiliar na sua reflexão e autocuidado. Este conteúdo não substitui em hipótese alguma a consulta, o diagnóstico ou o acompanhamento médico, nutricional ou de enfermagem. Sempre procure um profissional de saúde qualificado.</div></div>
+<button class="btn" id="redo">Refazer o quiz</button></section>
+
+<div class="refs card"><b>Referências</b><ul>
+<li><a href="https://bjhbs.com.br/index.php/bjhbs/article/view/30">bjhbs.com.br/…/article/view/30</a></li>
+<li><a href="https://www.scielo.br/j/rsp/a/CTsmWfCDcBSbpwP4cKgMyjs/?format=pdf&lang=pt">scielo.br/j/rsp/…</a></li>
+<li><a href="https://pepsic.scielo.org/scielo.php?script=sci_arttext&pid=S2236-6407201800020000">pepsic.scielo.org/…</a></li>
+<li><a href="https://www.scielosp.org/article/csc/2021.v26suppl3/5081-5088/">scielosp.org/article/csc/2021…</a></li>
+<li><a href="https://www.scielo.br/j/abem/a/XhRQBCSjRBWYh7SGK6gns8R/?lang=pt">scielo.br/j/abem/…</a></li>
+<li><a href="https://scielo.br/j/csp/a/mdgkfnTnJPxCQkzVxqhZDwR/abstract/?lang=pt&ilang=es">scielo.br/j/csp/…</a></li></ul></div>
+</main>
+<script>
+const Q=[
+["Você já recebeu o diagnóstico de diabetes tipo 2 de um profissional de saúde?",["Sim, já tenho o diagnóstico.","Não, mas quero prevenir ou tenho dúvidas se posso ter."]],
+["Qual é o seu gênero?",["Homem","Mulher","Prefiro não informar"]],
+["Qual é a sua faixa etária?",["Menos de 18 anos","De 18 a 39 anos","De 40 a 59 anos","60 anos ou mais"]],
+["Você sabe como estão os seus níveis de açúcar no sangue ou fez o exame de hemoglobina glicada recentemente?",["Sim, fiz e acompanho de perto.","Já fiz há algum tempo, mas não lembro ou não entendo bem o resultado.","Não faço exames de rotina há mais de um ano."]],
+["Como é a sua rotina com medicamentos ou insulina (caso tenha diagnóstico)?",["Tomo certinho todos os dias conforme a receita.","Às vezes esqueço ou acho difícil manter os horários.","Não tomo remédios (apenas controle com hábitos ou não faço tratamento).","Não tenho diabetes / não se aplica."]],
+["Onde você costuma buscar atendimento médico ou retirar seus remédios?",["Pelo SUS (Postinho / Unidade Básica de Saúde / Estratégia Saúde da Família).","Por plano de saúde privado ou consulta particular.","Não tenho o hábito de ir ao médico regularmente."]],
+["Como você avalia a sua prática de atividades físicas no dia a dia?",["Sou ativo(a) e me exercito regularmente.","Faço alguma coisa de vez em quando, mas me considero meio sedentário(a).","Não pratico nenhuma atividade física."]],
+["Como você descreveria a sua alimentação atual?",["Tento manter uma dieta equilibrada e rica em alimentos naturais.","Como o que tem, mas exagero com frequência em doces, massas ou ultraprocessados.","Acho muito difícil seguir qualquer tipo de dieta ou orientação alimentar."]],
+["Qual é o seu maior desafio ou obstáculo hoje para cuidar da saúde?",["Seguir a dieta e resistir às tentações à mesa.","Encontrar tempo, ânimo ou disposição para se exercitar.","Lembrar de tomar os remédios ou lidar com a rotina de exames.","Lidar com o estresse, a ansiedade ou a falta de apoio."]],
+["Você sente que tem apoio da família ou de pessoas próximas para cuidar da saúde?",["Sim, tenho bastante apoio e incentivo em casa.","Mais ou menos, cada um come ou vive de um jeito na minha casa.","Moro sozinho(a) ou sinto que preciso carregar isso muito sozinho(a)."]]
+];
+const $=id=>document.getElementById(id);let a=[],i=0;
+const show=s=>["info","quiz","out"].forEach(k=>$(k).classList.toggle("hide",k!==s));
+function render(){const q=Q[i];$("pn").textContent=`Pergunta ${i+1} de ${Q.length}`;$("pb").style.width=(i/Q.length*100)+"%";$("qt").textContent=q[0];
+$("qo").innerHTML="";q[1].forEach((t,k)=>{const b=document.createElement("button");b.className="opt";b.textContent="ABCD"[k]+") "+t;b.onclick=()=>{a[i]="ABCD"[k];i++;i<Q.length?render():result()};$("qo").appendChild(b)});
+$("back").style.visibility=i?"visible":"hidden";window.scrollTo(0,0)}
+function result(){const[q1,q2,q3,q4,q5,q6,q7,q8,q9,q10]=a,p=[];
+if(q1=="A"&&q3=="A")p.push("Olá! Sabemos que receber o diagnóstico de diabetes tipo 2 sendo jovem pode parecer assustador, mas você não está sozinho. Embora fosse mais comum em adultos no passado, hoje ela também aparece em jovens, principalmente por mudanças no estilo de vida e na rotina. Com o apoio da família e pequenos ajustes diários, é totalmente possível manter a saúde em dia e continuar aproveitando a vida.");
+else if(q1=="A"&&(q3=="B"||q3=="C"))p.push("Olá! Conviver com o diabetes tipo 2 na correria do dia a dia é um desafio real, mas você está no lugar certo para retomar o controle. No Brasil, cerca de 8,6% dos adultos passam pela mesma situação. Com informação de qualidade e pequenos ajustes na rotina, você protege sua energia, sua saúde e seu futuro.");
+else if(q1=="A"&&q3=="D")p.push("Olá! Que bom que você está cuidando de você. Na melhor idade, o diabetes tipo 2 exige um olhar mais carinhoso e atento, principalmente para garantir que os remédios e a rotina estejam alinhados para proteger seu coração, seus rins e sua disposição, sem descuidar do seu bem-estar.");
+else if(q1=="B")p.push("Olá! Que excelente iniciativa buscar a prevenção. A ciência mostra que mudar o estilo de vida pode reduzir de 50% a 60% as chances de desenvolver o diabetes tipo 2, resultado até mais poderoso que o de alguns remédios preventivos. Vamos descobrir como dar os primeiros passos de forma leve?");
+if((q4=="B"||q4=="C")&&q6=="A")p.push("Muitas pessoas descobrem ou controlam o diabetes tardiamente por falta de exames regulares. A boa notícia é que o SUS (pelo Postinho de Saúde ou Estratégia Saúde da Família) oferece gratuitamente exames fundamentais, como a hemoglobina glicada, e consultas de rotina. Procure sua unidade de saúde para atualizar seus exames!");
+if((q4=="B"||q4=="C")&&q6=="B")p.push("Ficar muito tempo sem exames de rotina (como a hemoglobina glicada) é um risco silencioso, já que o diabetes tipo 2 pode avançar sem sintomas no início. Como você tem acesso à rede particular ou convênio, agende uma conversa com seu médico para colocar os exames em dia.");
+if(q4=="A")p.push("Parabéns por manter seus exames (como a hemoglobina glicada) em dia! O acompanhamento regular é o mapa que mostra se as suas escolhas diárias estão dando o resultado esperado.");
+if(q6=="C")p.push("Notamos que você não costuma ir ao médico com frequência. Lembre-se de que o diabetes (ou o risco dele) não avisa quando começa a agir. Ter um profissional de saúde te acompanhando é o passo número um para garantir tranquilidade.");
+if(q5=="A")p.push("Sobre o seu tratamento: excelente trabalho ao tomar os medicamentos como o médico receitou. Essa consistência é a base para manter o açúcar no sangue estável.");
+if(q5=="B")p.push("Sobre os seus remédios: é normal que a correria faça a gente esquecer uma dose ou outra. Uma dica de ouro é vincular o horário do remédio a um hábito fixo (como escovar os dentes ou tomar o café da manhã) ou pedir a alguém da família um alarme carinhoso.");
+if(q5=="C"&&q1=="A")p.push("Atenção: se você tem o diagnóstico de diabetes mas optou por não tomar os remédios receitados, vale conversar com seu médico com urgência. Embora dieta e exercício sejam vitais, muitas vezes o corpo precisa de suporte medicamentoso para evitar que o açúcar alto danifique seus órgãos em silêncio.");
+if(q8=="B"||q8=="C"||q9=="A")p.push("Sobre a alimentação: você não está sozinho(a) nessa. Estudos científicos apontam que seguir a dieta é o maior desafio de quem cuida do diabetes. Mudar hábitos de uma vida inteira é difícil! Não tente proibir tudo de uma vez: comece cortando os excessos aos poucos e reduza os produtos ultraprocessados.");
+if(q7=="C"||q9=="B")p.push("Sobre os exercícios: você não precisa virar atleta da noite para o dia. O movimento ajuda o corpo a gastar o açúcar do sangue de forma natural. Que tal uma caminhada leve de 15 a 20 minutos após o almoço ou jantar?");
+if(q10=="B"||q10=="C")p.push("Notamos que você sente que carrega essa rotina de cuidados meio sozinho(a). O tratamento flui muito melhor quando compartilhado. Converse com pessoas próximas sobre o que você está vivendo ou busque grupos de apoio na sua região ou na internet.");
+if(q10=="A")p.push("Que ótimo saber que você tem apoio e incentivo em casa! Compartilhar as metas de saúde com a família torna o caminho muito mais leve e divertido.");
+$("rt").innerHTML=p.map(t=>`<p>${t}</p>`).join("");$("pb").style.width="100%";show("out");window.scrollTo(0,0)}
+$("start").onclick=()=>{a=[];i=0;show("quiz");render()};
+$("back").onclick=()=>{if(i>0){i--;render()}};
+$("redo").onclick=()=>{a=[];i=0;show("quiz");render()};
+</script></body></html>
